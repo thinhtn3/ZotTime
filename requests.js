@@ -275,12 +275,23 @@ form.addEventListener('submit', async (e) => {
 
 
 
-// GEOCODE add await
-// fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=$(buildingDestination)&key=AIzaSyDr0z0C-1w5yxssvIn9_1gJHPmAnY_fMmI`);
+// // GEOCODE add await
+// fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=$(startBuilding)&key=AIzaSyDr0z0C-1w5yxssvIn9_1gJHPmAnY_fMmI`);
 // then(response => {
 //     if (!response.ok) {
 //         throw new Error('Network response error.');
 //     }
+
+//     return response.json();
+// })
+
+// fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=$(endBuilding)&key=AIzaSyDr0z0C-1w5yxssvIn9_1gJHPmAnY_fMmI`);
+// then(response => {
+//     if (!response.ok) {
+//         throw new Error('Network response error.');
+//     }
+
+//     response
 
 //     return response.json();
 // })
