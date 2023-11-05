@@ -275,7 +275,7 @@ form.addEventListener('submit', async (e) => {
 
 
 
-//GEOCODE add await
+// GEOCODE add await
 // fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=$(buildingDestination)&key=AIzaSyDr0z0C-1w5yxssvIn9_1gJHPmAnY_fMmI`);
 // then(response => {
 //     if (!response.ok) {

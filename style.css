@@ -98,6 +98,13 @@ select {
     height: 2em;
 }
 
+#map {
+    height: 400px;
+    width: 100%
+}
+
+
+/* MEDIA */
 @media (max-width: 840px) {
     .wrapper1, header {
         padding: 2em 5em 3em 5em;
