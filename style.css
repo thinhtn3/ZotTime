@@ -1,0 +1,119 @@
+html,
+body {
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: rgb(255, 210, 0);
+    background: linear-gradient(90deg, rgba(255, 210, 0, 1) 0%, rgba(0, 100, 164, 1) 100%);
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 4.5em;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: rgb(0, 100, 164);
+    margin: 0px 0px;
+}
+
+header h1 span {
+    color: rgb(255, 210, 0);
+}
+
+header p {
+    color: rgb(0, 100, 164);
+    font-weight: 600;
+}
+
+.wrapper1 {
+    padding-bottom: 8em; 
+}
+
+.wrapper1 label {
+    font-style: italic;
+}
+
+.wrapper1 .dropdownList {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper1 .dropdownList h2 {
+    color: rgb(0, 100, 164);
+}
+
+.dropdownList button {
+    margin-top: 50px;
+    width: 30%;
+    background-color: #6874E8;
+    border: 0px;
+    height: 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+.dropdownList button:hover {
+    transition: 0.2s;
+    background-color: #828ffb;
+    cursor: pointer;
+}
+
+/* classlistAdd */
+
+#anteaterLogo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    column-gap: 10em;
+    align-items: center;
+}
+
+form .col-1 {
+    row-gap: 2em;
+}
+
+select {
+    border-radius: 16px;
+    height: 2em;
+}
+
+@media (max-width: 840px) {
+    .wrapper1, header {
+        padding: 2em 5em 3em 5em;
+    }
+    .dropdownList form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        margin: 1.5em 1em 1.5em 1em;
+    }
+}
